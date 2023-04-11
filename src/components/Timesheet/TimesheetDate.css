@@ -1,0 +1,23 @@
+.timesheet-date {
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border: 1px solid #5469fe;
+    background-color: #5469fe;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .timesheet-date__month {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .timesheet-date__day {
+    font-size: 2rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,40 @@
+.add-timesheet {
+  background-color: #8293fe;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 70rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  color: #0D0E18;
+}
+
+.add-timesheet button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #4a61fe;
+  background-color: #4a61fe;
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.add-timesheet button:hover,
+.add-timesheet button:active {
+  background-color: #324dff;
+  border-color: #324dff;
+}
+
+.add-timesheet button.alternative {
+  color: #4a61fe;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.add-timesheet button.alternative:hover,
+.add-timesheet button.alternative:active {
+  background-color: #ddb3f8;
+}

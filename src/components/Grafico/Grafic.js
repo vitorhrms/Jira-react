@@ -10,7 +10,7 @@ const Grafic = props =>{
             <GraficBar
                 key={dataPoint.label}
                 value={dataPoint.value}
-                extraValue={Math.round((dataPoint.value - 8))}
+                extraValue={dataPoint.value - 8}
                 maxValue={8}
                 label={dataPoint.label} 
             />

@@ -4,11 +4,15 @@
     flex-direction: column;
     align-items: center;
   }
-  
+  .grafic-bar p {
+    position: absolute;
+    margin: -22px 0px 0px 0;
+  }
+
   .grafic-bar__inner {
     height: 100%;
-    width: 100%;
-    border: 1px solid #313131;
+    width: 1rem;
+    border: 1px solid #797979;
     border-radius: 12px;
     background-color: #cacaca;
     overflow: hidden;
@@ -19,12 +23,12 @@
   
   .grafic-bar__fill {
     background-color: #4a61fe;
-    width: 0.7rem;
+    width: 100%;
     transition: all 0.3s ease-out;
   }
   .grafic-bar__fillred{
     background-color: #e00000;
-    width: 0.7rem;
+    width: 100%;
     transition: all 0.3s ease-out;
   }
   
